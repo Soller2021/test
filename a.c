@@ -20,7 +20,7 @@ printf("第%d个元素为%d\n",i+1,array[i]);
 		now+=array[i];
 		if(now>max)
 		max=now;
-		else if(now<0
+		else if(now<0)
 		now=0;
 	}
 	printf("最大子数组为%d\n",max);
