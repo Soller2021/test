@@ -15,13 +15,13 @@ for(i=0;i<x;i++){
 for(i=0;i<x;i++)
 printf("第%d个元素为%d\n",i+1,array[i]);
 	int max=0;
-	int arraynow;
+	int now;
 	for(i=0;i<x;i++){
-		arraynow+=array[i];
-		if(arraynow>max)
-		max=arraynow;
-		else if(arraynow<0)
-		arraynow=0;
+		now+=array[i];
+		if(now>max)
+		max=now;
+		else if(now<0)
+		now=0;
 	}
 	printf("最大子数组为%d\n",max);
 }
