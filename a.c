@@ -2,10 +2,10 @@
 int main()
 {
 int x;
-printf("请输入\n");
+printf("请输入输入的元素个数\n");
 scanf("%d",&x);
 int array[x];
-printf("请输入整数数组元素\n");
+printf("请输入整数元素\n");
 int i;
 for(i=0;i<x;i++){
 	printf("请输入第%d个元素\n",i+1);
@@ -13,7 +13,7 @@ for(i=0;i<x;i++){
 }
 
 for(i=0;i<x;i++)
-printf("数组第%d个元素为%d\n",i+1,array[i]);
+printf("第%d个元素为%d\n",i+1,array[i]);
 	int max=0;
 	int arraynow;
 	for(i=0;i<x;i++){
