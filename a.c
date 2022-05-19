@@ -19,7 +19,7 @@ printf("第%d个元素为%d\n",i+1,array[i]);
 	for(i=0;i<x;i++){
 		now+=array[i];
 		if(now>max)
-		max=now
+		max=now;
 		else if(now<0)
 		now=0;
 	}
